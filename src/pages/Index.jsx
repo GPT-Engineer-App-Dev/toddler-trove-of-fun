@@ -2,6 +2,7 @@ import React from 'react';
 import Header from '../components/Header';
 import PhotoGallery from '../components/PhotoGallery';
 import FunFacts from '../components/FunFacts';
+import Milestones from '../components/Milestones';
 import Footer from '../components/Footer';
 
 const Index = () => {
@@ -11,6 +12,7 @@ const Index = () => {
       <main className="container mx-auto px-4 py-8">
         <PhotoGallery />
         <FunFacts />
+        <Milestones />
       </main>
       <Footer />
     </div>
